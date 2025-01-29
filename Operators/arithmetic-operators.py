@@ -28,3 +28,48 @@ print("\t")
 num1 = 2
 num2 = 3
 print(num1 + num2)
+
+print("\t")
+print("\t")
+print("\t")
+print("\t")
+
+# Remainder
+num1 = 10
+num2 = 10.0
+num3 = 3
+
+print(num1 % num3)
+print(num2 % num3)      #because one the operand is float so the output will float
+
+print("\t")
+print("\t")
+print("\t")
+print("\t")
+
+# floor division
+num1 = 10
+num2 = 10.0
+num3 = -10
+num4 = 3
+
+print(num1 / num4)      #this is a normal division
+print(num1 // num4)     #this is a floor division(floor division is like greatest integer function)
+print(num2 // num4)     #most of the people thing floor division returns int value but that's wrong because it can return float values also
+print(num3 // num4)
+
+print("\t")
+print("\t")
+print("\t")
+print("\t")
+
+# exponentiation
+
+num1 = 2
+num2 = 2.0
+num3 = 3
+num4 = 3.0
+
+print(num1**num3)     #2^3=8
+print(num1**num4)
+print(num2**num4)
